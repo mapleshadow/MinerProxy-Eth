@@ -31,7 +31,7 @@ yum update -y && yum install wget -y
 ```
 安装好 wget 之后 下载脚本并执行
 ```bash
-wget https://github.com/wlmaster/minerproxy/blob/main/install.sh
+wget https://github.com/minerproxyeth/MinerProxy-Eth/blob/main/install.sh
 bash install.sh
 ```
 
