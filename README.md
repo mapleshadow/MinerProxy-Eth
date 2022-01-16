@@ -4,7 +4,7 @@
 # 矿工交流 TG电报群： https://t.me/MinerProxy_eth
 
 <div align="center">
-<img src="https://github.com/minerproxyeth/MinerProxy-Eth/blob/main/img.png" width="450" height="450" />
+<img src="https://github.com/minerproxyeth/MinerProxy-Eth/blob/main/img.png" width="350" height="350" />
 </div>
 
 # WEB管理页面
