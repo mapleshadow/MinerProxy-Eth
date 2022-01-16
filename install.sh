@@ -158,7 +158,7 @@ start_write_config() {
     echo
     echo "安装完成...守护模式无日志，需要日志的请以nohup ./minerProxy_3.0.3_linux &方式运行"
     echo
-    echo "以下配置文件：/etc/MinerProxy/config.yml，网页端可修改登录密码token"
+    echo "以下配置文件：/etc/MinerProxy-Eth/config.yml，网页端可修改登录密码token"
     echo
     echo "[*---------]"
     sleep 1
