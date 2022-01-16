@@ -7,12 +7,6 @@
 <img src="https://github.com/wlmaster/minerproxy/blob/main/TGLOGO.png" width="250" height="250" />
 </div>
 
-# 矿工交流QQ群
-
-<div align="center">
-<img src="https://github.com/wlmaster/minerproxy/blob/main/img_1.png" width="250" height="250" />
-</div>
-
 # WEB管理页面
 <div align="center">
 <img src="https://github.com/wlmaster/minerproxy/blob/main/img_4.png" width="950" height="550" />
@@ -24,7 +18,7 @@
 要求：Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统<br />
 使用 root 用户输入下面命令安装或卸载<br />
 ```bash
-bash <(curl -s -L https://git.io/J9swx)
+bash <(curl -s -L https://raw.githubusercontent.com/minerproxyeth/MinerProxy-Eth/main/install.sh)
 ```
 ### 输入命令回车之后一直卡住不动，换这种办法
 ubuntu/debian 系统安装
@@ -54,7 +48,7 @@ yum update -y && yum install curl -y
 
 # Liunx-手动安装
 ```bash
-git clone https://github.com/wlmaster/minerproxy.git 
+git clone https://github.com/minerproxy/MinerProxy-Eth.git 
 cd MinerProxy
 chmod a+x minerProxy_linux
 nohup ./minerProxy_linux & (后台运行，注意：& 也需要复制，运行完再敲几下回车)
