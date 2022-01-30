@@ -48,21 +48,21 @@ yum update -y && yum install curl -y
 
 # Liunx-手动安装
 ```bash
-git clone https://github.com/minerproxy/MinerProxy-Eth.git 
-cd MinerProxy
-chmod a+x minerProxy_linux
-nohup ./minerProxy_linux & (后台运行，注意：& 也需要复制，运行完再敲几下回车)
+git clone https://github.com/minerproxyeth/minerproxy.git 
+cd minerproxy
+chmod a+x minerProxy_3.0.3_linux 
+nohup ./minerProxy_3.0.3_linux & (后台运行，注意：& 也需要复制，运行完再敲几下回车)
 tail -f nohup.out (后台运行时查看)
 ```
 
 运行成功后访问 IP:18888 (如：127.0.0.1:18888 注意开放端口) 进行配置即可。
 ### 后台运行（注意后面的&）运行完再敲几下回车
 ```bash
-nohup ./minerProxy_linux &
+nohup ./minerProxy_3.0.3_linux  &
 ```
 ### 后台运行时关闭
 ```bash
-killall minerProxy_linux
+killall minerProxy_3.0.3_linux 
 ```
 ### 后台运行时查看
 ```bash
